@@ -1,6 +1,6 @@
 .Imagem{
-    width: 80px!important;
-    height: 60px!important;
+    width: 120px!important;
+    height: 80px!important;
 }
 .div-todasimagens{
     display: grid;
@@ -11,7 +11,7 @@
 }
 .titulo{
     font-size: 10px;
-    color: rgb(146, 83, 204);
+    color: rgb(0, 0, 0);
     margin-bottom: 7px;
     text-align: center;
 }
@@ -20,12 +20,12 @@
         background-color: rgb(5, 97, 151)
     }
     .Imagem{
-        border-top: 10px groove rgb(174, 0, 255);
-        border-left: 10px dotted rgb(43, 6, 85);
-        border-right: 10px solid rgb(27, 0, 71);
-        border-bottom: 10px dashed rgb(2, 99, 112);
+        border-top: 10px groove rgb(209, 209, 209);
+        border-left: 10px dotted rgb(218, 28, 28);
+        border-right: 10px solid rgb(28, 26, 32);
+        border-bottom: 10px dashed rgb(137, 210, 219);
         width: 180px !important;
-        height: 160 !important;
+        height: 160px !important;
     }
     .titulo{
         font-size: 30px;

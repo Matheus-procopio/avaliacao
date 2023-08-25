@@ -22,5 +22,43 @@
 
 .lista-menu{
     display: none;
+    position: absolute;
+    top: 100%;
+    background-color: var(--branco);
+    width: 60vw;
+}
+.container__botao{
+    display: none;
+}
+.container__botao:checked~ .lista-menu{
+    display: block;
+}
+.lista-menu__titulo{
+    color: var(--amarelo);
+}
 
+.lista-menu__item{
+    background: var(--roxo-degrade)
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    bakground-clip:text;
+    text-transform:uppercase;
+}
+
+.lista-menu__titulo, .lista-menu__item{
+    pading: 1em;
+    background-color: var(--branco);
+}
+
+.titulo__cabecalho{
+    display: none;
+    color: blue;
+}
+@media screen and (min-width:1024px){
+    .titulo__cabecalho{
+        font-size: 30px;
+        font-family: var(--font-secundaria);
+        color: aqua;
+        display: block;
+}
 }

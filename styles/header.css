@@ -9,9 +9,13 @@
 
 .cabecalho{
     background-color: var(--branco);
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
 
 }
+
 .container{
     display: flex;
     align-items: center;
@@ -27,26 +31,30 @@
     background-color: var(--branco);
     width: 60vw;
 }
+
 .container__botao{
     display: none;
 }
+
 .container__botao:checked~ .lista-menu{
     display: block;
 }
+
 .lista-menu__titulo{
     color: var(--amarelo);
 }
 
 .lista-menu__item{
-    background: var(--roxo-degrade)
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
-    bakground-clip:text;
-    text-transform:uppercase;
+    background: var(--roxo-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
 }
+    
 
 .lista-menu__titulo, .lista-menu__item{
-    pading: 1em;
+    padding: 1em;
     background-color: var(--branco);
 }
 
@@ -58,7 +66,7 @@
     .titulo__cabecalho{
         font-size: 30px;
         font-family: var(--font-secundaria);
-        color: aqua;
+        color: rgb(73, 44, 240) (43, 226, 101);
         display: block;
 }
 }

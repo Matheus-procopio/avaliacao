@@ -37,4 +37,8 @@
     .titulo{
         font-size: 30px;
     }
+    .secao__banner{
+        width: 100%;
+        display: block;
+    }
 }
